@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_home"
+    android:orientation="vertical">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:tabInlineLabel="true"
+        app:tabIndicatorColor="@color/colorWhite"
+        app:tabTextColor="@android:color/white">
+
+    </com.google.android.material.tabs.TabLayout>
+
+
+        <LinearLayout
+            android:weightSum="10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:layout_weight="9"
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+            </androidx.viewpager2.widget.ViewPager2>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:id="@+id/banner_container"
+                android:layout_below="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="vertical" >
+
+                <com.mopub.mobileads.MoPubView
+                    android:id="@+id/moPubBanner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:moPubAdSize="height_50"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+</LinearLayout>

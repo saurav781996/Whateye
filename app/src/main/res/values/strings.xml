@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">WhatEye</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+
+    <!--Newtwork Error Message-->
+    <string name="network_error">Network Failure. Please try again later.</string>
+    <string name="internal_server_error">Internal Server error.</string>
+    <string name="error_fetching_result">Something went wrong. Please try again later.</string>
+    <string name="seccussfully_removed">Seccussfully Removed!</string>
+
+    <string name="tryforfree">TRY FOR FREE</string>
+    <string name="trackanynumber">Track Any WhatsApp Number For 6 Hours</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="stop_tracking">STOP TRACKING</string>
+    <string name="try_free">TRY FOR FREE</string>
+    <string name="track">Track Any WhatsApp NumberFor 8 Hours</string>
+    <string name="trial_expires">Your 6 hour trial period is completed. Buy a premium plan now to start uninterrupted tracking again</string>
+    <string name="testDevice">7489bce9-eaf7-455a-97d5-8aa413d82cb2</string>
+    <string name="IsPaid">IsPaid</string>
+
+
+
+    <!--For testing-->
+    <string name="mopub_banner">5f293333319449d2bab2e24a0fd604c2</string>
+    <string name="mopub_interstitial"></string>
+    <string name="mopub_medium_rectangle"></string>
+    <string name="mopub_splash_interstitial"  translatable="false">01d8157152874a7799db25bcb4360832</string>
+
+
+</resources>
